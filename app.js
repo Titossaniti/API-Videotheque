@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 
-const gameRoutes = require('./routes/game');
+const movieRoutes = require('./routes/movie');
 
 const app = express();
 
@@ -18,6 +18,6 @@ app.use(express.static('images'));
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
-app.use('/api/games', gameRoutes);
+app.use('/api/movies', movieRoutes);
 
 module.exports = app;

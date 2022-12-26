@@ -1,4 +1,4 @@
-const games = [
+const movies = [
     {
       "Title" : "Uncharted 4",
       "Filmmaker" : "Jesse Dylan",
@@ -119,13 +119,13 @@ const games = [
 ];
 
 exports.find = () => {
-  return new Promise((resolve, reject) => resolve(JSON.parse(JSON.stringify(games))));
+  return new Promise((resolve, reject) => resolve(JSON.parse(JSON.stringify(movies))));
 }
 
 exports.findById = (id) => {
   return new Promise((resolve, reject) =>
-    resolve(JSON.parse(JSON.stringify(games)).find(game =>
-      game._id == id)
+    resolve(JSON.parse(JSON.stringify(movies)).find(movie =>
+      movie._id == id)
     )
   );
 }
