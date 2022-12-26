@@ -1,14 +1,14 @@
 const uuid = require('uuid/v1');
-const Movie = require('../models/Movie');
+const Game = require('../models/Game');
 
-exports.getAllMovies = (req, res, next) => {
-  Movie.find().then(
-    (movies) => {
-      const mappedMovies = movies.map((movie) => {
-        movie.imageUrl = req.protocol + '://' + req.get('host') + '/images/' + movie.imageUrl;
-        return movie;
+exports.getAllGames = (req, res, next) => {
+  Game.find().then(
+    (games) => {
+      const mappedGames = games.map((game) => {
+        game.imageUrl = req.protocol + '://' + req.get('host') + '/images/' + game.imageUrl;
+        return game;
       });
-      res.status(200).json(mappedMovies);
+      res.status(200).json(mappedGames);
     }
   ).catch(
     () => {
@@ -17,14 +17,14 @@ exports.getAllMovies = (req, res, next) => {
   );
 };
 
-exports.getOneMovie = (req, res, next) => {
-  Movie.findById(req.params.id).then(
-    (movie) => {
-      if (!movie) {
-        return res.status(404).send(new Error('Movie not found!'));
+exports.getOneGame = (req, res, next) => {
+  Game.findById(req.params.id).then(
+    (game) => {
+      if (!game) {
+        return res.status(404).send(new Error('Game not found!'));
       }
-      movie.imageUrl = req.protocol + '://' + req.get('host') + '/images/' + movie.imageUrl;
-      res.status(200).json(movie);
+      game.imageUrl = req.protocol + '://' + req.get('host') + '/images/' + game.imageUrl;
+      res.status(200).json(game);
     }
   ).catch(
     () => {
@@ -43,29 +43,29 @@ exports.getOneMovie = (req, res, next) => {
  *   city: string,
  *   email: string
  * }
- * movies: [string] <-- array of movie _id
+ * games: [string] <-- array of game _id
  *
  */
-exports.orderMovies = (req, res, next) => {
+exports.orderGames = (req, res, next) => {
   if (!req.body.contact ||
       !req.body.contact.firstName ||
       !req.body.contact.lastName ||
       !req.body.contact.address ||
       !req.body.contact.city ||
       !req.body.contact.email ||
-      !req.body.movies) {
+      !req.body.games) {
     return res.status(400).send(new Error('Bad request!'));
   }
   let queries = [];
-  for (let movieId of req.body.movies) {
+  for (let gameId of req.body.games) {
     const queryPromise = new Promise((resolve, reject) => {
-      Movie.findById(movieId).then(
-        (movie) => {
-          if (!movie) {
-            reject('Movie not found: ' + movieId);
+      Game.findById(gameId).then(
+        (game) => {
+          if (!game) {
+            reject('Game not found: ' + gameId);
           }
-          movie.imageUrl = req.protocol + '://' + req.get('host') + '/images/' + movie.imageUrl;
-          resolve(movie);
+          game.imageUrl = req.protocol + '://' + req.get('host') + '/images/' + game.imageUrl;
+          resolve(game);
         }
       ).catch(
         () => {
@@ -76,11 +76,11 @@ exports.orderMovies = (req, res, next) => {
     queries.push(queryPromise);
   }
   Promise.all(queries).then(
-    (movies) => {
+    (games) => {
       const orderId = uuid();
       return res.status(201).json({
         contact: req.body.contact,
-        movies: movies,
+        games: games,
         orderId: orderId
       })
     }

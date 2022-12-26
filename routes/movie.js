@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
-const movieCtrl = require('../controllers/movie');
+const gameCtrl = require('../controllers/game');
 
-router.get('/', movieCtrl.getAllMovies);
-router.get('/:id', movieCtrl.getOneMovie);
-router.post('/order', movieCtrl.orderMovies);
+router.get('/', gameCtrl.getAllGames);
+router.get('/:id', gameCtrl.getOneGame);
+router.post('/order', gameCtrl.orderGames);
 
 module.exports = router;
