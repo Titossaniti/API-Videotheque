@@ -1,6 +1,6 @@
 const games = [
     {
-      "Title" : "How High",
+      "Title" : "Uncharted 4",
       "Filmmaker" : "Jesse Dylan",
       "Description" : "Silas est un étudiant vivant dans un ghetto des États-Unis. Malgré son statut de petit voyou de son lycée, il est un génie de la botanique dont la marijuana et, par extension, un petit dealer dans son quartier. Son meilleur ami, Ivory, meurt à la suite d'un rendez-vous amoureux désastreux tout en ayant promis à Silas d'être toujours là pour lui auparavant. Celui-ci ayant été incinéré, Silas décide d'utiliser les cendres de son ami pour faire pousser un plant de cannabis. Au même moment, Jamal vit lui toujours chez sa mère et se fait régulièrement disputer pour des affaires de drogues et de petite délinquance. Au matin de leur examen final, Jamal et Silas se rencontrent par hasard et décident de fumer ensemble leur joint du matin, en essayant la marijuana issue de la culture de Silas avec les cendres d'Ivory.",
       "Duration" : 93,
