@@ -33,19 +33,7 @@ exports.getOneMovie = (req, res, next) => {
   )
 };
 
-/**
- *
- * Si temps nécessaire pour validation formulaire :
- * contact: {
- *   firstName: string,
- *   lastName: string,
- *   address: string,
- *   city: string,
- *   email: string
- * }
- * movies: [string] <-- array of movie _id
- *
- */
+
 exports.orderMovies = (req, res, next) => {
   if (!req.body.contact ||
       !req.body.contact.firstName ||
