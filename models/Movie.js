@@ -46,7 +46,31 @@ const movies = [
       "gameplay":"https://www.youtube.com/embed/FMuUUCZadbw",
       "avis":"4",
       "desc":"Sur l'archipel de Panao, le joeuur incarne Rico Rodriguez et a pour mission de trouver son mentor et ami afin de le tuer. Grâce à son grappin et à son parachute, Rico multiplie les base jumps, les vols de voiture et les cascades à des vitesses folles. Avec plus de 1000 km² de terrain accidenté et des centaines d'armes et de véhicules, Just Cause 2 défie les lois de la gravité et de l'entendement."
-    }
+    },
+    {
+      "name" :"re-volt",
+      "year":"1999",
+      "image":"re_volt",
+      "type":"Jeu de course",
+      "mode":"solo et multijoueur",
+      "support":"PC",
+      "studio":"acclaim",
+      "gameplay":"https://www.youtube.com/embed/4qK6vlE-KiI",
+      "avis":"5",
+      "desc":"Le jeu propose 28 véhicules et 14 circuits. Les circuits sont également jouables en contresens, en miroir et en contresens-miroir. La particularité de ce jeu de course est de mettre à la disposition du joueur des voitures télécommandées pouvant récolter des bonus afin de mettre en difficulté les concurrents."
+  },
+  {
+    "name" :"Midnight Club 3: DUB Edition",
+    "year":"2005",
+    "image":"midnight_club_3",
+    "type":"Jeu de course",
+    "mode":"solo et multijoueur",
+    "support":"ps2",
+    "studio":"rockstar Games",
+    "gameplay":"https://www.youtube.com/embed/zRvanrSS6p8",
+    "avis":"4",
+    "desc":"Midnight Club 3 : Dub Edition sur PS2 est un jeu de courses de voitures qui vous offre une gamme variée de plus de 50 véhicules tous customisables à souhait ! Faites la course contre les meilleurs pilotes dans les rues de trois grandes villes des Etats-Unis : Detroit, Atlanta et San Diego et découvrez leurs différents quartiers."
+}
 ];
 
 /**
