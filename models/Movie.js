@@ -54,7 +54,7 @@ const movies = [
       "type":"Jeu de course",
       "mode":"solo et multijoueur",
       "support":"PC",
-      "studio":"acclaim",
+      "studio":"Acclaim",
       "gameplay":"https://www.youtube.com/embed/4qK6vlE-KiI",
       "avis":"5",
       "desc":"Le jeu propose 28 véhicules et 14 circuits. Les circuits sont également jouables en contresens, en miroir et en contresens-miroir. La particularité de ce jeu de course est de mettre à la disposition du joueur des voitures télécommandées pouvant récolter des bonus afin de mettre en difficulté les concurrents."
@@ -66,10 +66,22 @@ const movies = [
     "type":"Jeu de course",
     "mode":"solo et multijoueur",
     "support":"ps2",
-    "studio":"rockstar Games",
+    "studio":"rockstar games",
     "gameplay":"https://www.youtube.com/embed/zRvanrSS6p8",
     "avis":"4",
     "desc":"Midnight Club 3 : Dub Edition sur PS2 est un jeu de courses de voitures qui vous offre une gamme variée de plus de 50 véhicules tous customisables à souhait ! Faites la course contre les meilleurs pilotes dans les rues de trois grandes villes des Etats-Unis : Detroit, Atlanta et San Diego et découvrez leurs différents quartiers."
+},
+{
+  "name" :"red dead redemption",
+  "year":"2010",
+  "image":"red_dead_redemption",
+  "type":"action-aventure",
+  "mode":"solo",
+  "support":"ps3",
+  "studio":"rockstar games",
+  "gameplay":"https://www.youtube.com/embed/Qq1E9qMsMQ8",
+  "avis":"5",
+  "desc":"Après plusieurs années passées dans une dangereuse bande de hors-la-loi, John Marston a décidé de se ranger et de vivre paisiblement dans son ranch avec sa femme Abigail et son fils Jack. Malheureusement, l’agent Edgar Ross du FBI (ancien agent de l'Agence Pinkerton) ne l’entend pas de cette oreille. Il emprisonne Abigail et Jack et ne les rendra à John que s’il arrête mort ou vif tous les anciens membres de sa bande : Bill Williamson, Javier Escuella et son chef, Dutch van der Linde. John accepte à contrecœur."
 }
 ];
 
