@@ -162,7 +162,7 @@ const movies = [
   "type":"Action, enquêtes",
   "mode":"solo",
   "support":"ps3",
-  "studio":"Rockstar Games",
+  "studio":"rockstar games",
   "gameplay":"https://www.youtube.com/embed/eW-9zFhAyDM",
   "avis":"4",
   "desc":"L.A. Noire est un jeu d'action-aventure. Le jeu vous place dans la peau d'un détective à Los Angeles à la fin des années 1940 dans un contexte d'après-guerre où se mêlent corruption et drogue. Le jeu croise action, enquête et narration complexe, tout en présentant une série de meurtres à élucider. Il s'agit d'un monde ouvert, il est donc possible en plus des enquêtes d'intervenir sur des évènements en temps réel dans la ville, comme des braquages, des agressions ou autres."
@@ -174,7 +174,7 @@ const movies = [
   "type":"Action-aventure, Western",
   "mode":"Solo",
   "support":"ps4",
-  "studio":"Rockstar games",
+  "studio":"rockstar games",
   "gameplay":"https://www.youtube.com/embed/jTx5GetgC-M",
   "avis":"6",
   "desc":"Les évènements se déroulent avant ceux du premier opus, en 1899. La bande de Dutch van der Linde, réalise un braquage d'envergure dans la ville de Blackwater. Volant $150 000 dans une banque et fuyant à bord d'un ferry, la situation tourne court lorsque les représentants de la loi, et principalement la Pinkerton National Detective Agency, sont tout près de capturer la bande de hors-la-loi. Dans la panique, Dutch tue une femme innocente et certains de leurs associés sont tués. D'autres membres de la bande sont capturés, voire exécutés. Les membres survivants de la bande parviennent à prendre la fuite. Dutch perd une partie de l'argent volé dans la fuite, mais parvient à cacher le reste dans un endroit secret à Blackwater. Pourchassés sans relâche par les fédéraux, la bande de Dutch s'exile vers les montagnes, à l'Est."
