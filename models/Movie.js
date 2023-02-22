@@ -8,7 +8,7 @@ const movies = [
       "support":"PC",
       "studio":"fromSoftware",
       "gameplay":"https://www.youtube.com/embed/zjhE3j4CpXc",
-      "avis":"5",
+      "avis":"6",
       "desc":"Elden Ring se déroule dans le royaume de l'Entre-terre, quelque temps après la destruction du Cercle d’Elden et la dispersion de ses fragments, les runes majeures. Autrefois honoré par la présence du Cercle et de l'Arbre-Monde, le royaume est maintenant gouverné par les descendants demi-dieux de la reine Marika l'Éternelle, chacun possédant un éclat du Cercle d'Elden qui les corrompt et les empoisonne par leur pouvoir. Le joueur incarne un Sans-éclat, un exilé de l'Entre-terre qui a perdu la grâce du Cercle, rappelé après l'Éclatement, qui doit traverser le royaume pour trouver toutes les runes majeures, restaurer le Cercle d’Elden et devenir le Seigneur d'Elden."
     },
     {
@@ -20,7 +20,7 @@ const movies = [
       "support":"PC",
       "studio":"Supergiant Games",
       "gameplay":"https://www.youtube.com/embed/cbef5_XBzqU",
-      "avis":"5",
+      "avis":"6",
       "desc":"Hades se déroule dans un univers de fantasy s'inspirant de la Grèce antique et de sa mythologie, et notamment des Enfers grecs. Le joueur visite ainsi plusieurs régions des Enfers, comme le Tartare, les Champs Élysées ou l'Asphodèle. Plusieurs évènements de la mythologie grecque sont mentionnés lors de l'aventure, comme la guerre de Troie, avec la présence aux Enfers d'Achille et Patrocle, ou la séparation d'Orphée et Eurydice. Le joueur incarne Zagreus, prince des Enfers, qui tente de fuir le royaume des morts pour découvrir ses origines et réunifier sa famille."
     },
     {
@@ -52,7 +52,7 @@ const movies = [
       "year":"1999",
       "image":"re_volt",
       "type":"Jeu de course",
-      "mode":"solo et multijoueur",
+      "mode":"solo",
       "support":"PC",
       "studio":"Acclaim",
       "gameplay":"https://www.youtube.com/embed/4qK6vlE-KiI",
@@ -64,7 +64,7 @@ const movies = [
     "year":"2005",
     "image":"midnight_club_3",
     "type":"Jeu de course",
-    "mode":"solo et multijoueur",
+    "mode":"solo",
     "support":"ps2",
     "studio":"rockstar games",
     "gameplay":"https://www.youtube.com/embed/zRvanrSS6p8",
@@ -80,8 +80,104 @@ const movies = [
   "support":"ps3",
   "studio":"rockstar games",
   "gameplay":"https://www.youtube.com/embed/Qq1E9qMsMQ8",
-  "avis":"5",
+  "avis":"6",
   "desc":"Après plusieurs années passées dans une dangereuse bande de hors-la-loi, John Marston a décidé de se ranger et de vivre paisiblement dans son ranch avec sa femme Abigail et son fils Jack. Malheureusement, l’agent Edgar Ross du FBI (ancien agent de l'Agence Pinkerton) ne l’entend pas de cette oreille. Il emprisonne Abigail et Jack et ne les rendra à John que s’il arrête mort ou vif tous les anciens membres de sa bande : Bill Williamson, Javier Escuella et son chef, Dutch van der Linde. John accepte à contrecœur."
+},
+{
+  "name" :"rocket league",
+  "year":"2015",
+  "image":"rocket_league",
+  "type":"Compétitif, Arcade",
+  "mode":"Multijoueur",
+  "support":"PC",
+  "studio":"psyonix",
+  "gameplay":"https://www.youtube.com/embed/pGAGSVe6Vlw",
+  "avis":"6",
+  "desc":"Rocket League est un mélange de jeux de courses et de jeux de football. Par équipe ou en solo, le joueur contrôle un véhicule et peut alors frapper dans un ballon, avec pour objectif de marquer dans le but adverse. Le joueur peut utiliser une jauge de boost limitée à 100 pour accélérer et/ou se maintenir dans les airs, sauter pour réceptionner une balle et initier un envol pour atteindre des balles en l'air, s'incliner en l'air. Il peut aussi faire des dashs (une brusque accélération s'effectuant en appuyant rapidement deux fois sur le bouton de saut tout en appuyant dans une direction) sur les côtés et vers l'avant pour gagner de la vitesse ou se repositionner. Pour recharger sa jauge de boost, le joueur récupère des capsules (situées aux abords du terrain) ou sur des palettes éparpillées sur le terrain."
+},
+{
+  "name" :"valorant",
+  "year":"2020",
+  "image":"valorant",
+  "type":"Compétitif, jeu de tir",
+  "mode":"multijoueur",
+  "support":"pc",
+  "studio":"Riot games",
+  "gameplay":"https://www.youtube.com/embed/k5SS1VYol4A",
+  "avis":"4",
+  "desc":"Dans Valorant, chaque joueur joue le rôle d'un « agent » aux compétences uniques. Dans le mode de jeu principal, deux équipes de cinq joueurs s'affrontent et les agents utilisent un système économique pour acheter des utilitaires et des armes. Une équipe est en attaque et une est en défense : l'équipe attaquante dispose d'une bombe qu'elle doit poser sur un site. Si elle est suffisamment protégée et qu'elle explose, les attaquants gagnent un point. En revanche, si l'équipe en défense réussit à désamorcer la bombe ou si le temps est écoulé, ce sont eux qui gagnent un point6. L'élimination de tous les membres de l'équipe adverse entraine également une victoire pour le tour. La première équipe qui obtient treize points gagne la partie."
+},
+{
+  "name" :"the last of us : part I",
+  "year":"2013",
+  "image":"the_last_of_us_part_I",
+  "type":"Action-aventure, survival-horror",
+  "mode":"Solo",
+  "support":"ps3",
+  "studio":"Naughty dog",
+  "gameplay":"https://www.youtube.com/embed/p_c0forXrAk",
+  "avis":"6",
+  "desc":"The Last of Us se passe dans un monde post-apocalyptique, après qu'une épidémie ayant échappé à tout contrôle a ravagé la civilisation humaine 20 ans plus tôt. Les deux personnages principaux, Joel et Ellie, doivent récupérer munitions et vivres pour avancer dans leur quête et triompher des infectés et des survivants hostiles qu'ils croisent. Le comic The Last of Us: American Dreams apprend au lecteur que l’épidémie s’est déclenchée six ans avant la naissance d'Ellie."
+},
+{
+  "name" :"the last of us : part II",
+  "year":"2020",
+  "image":"the_last_of_us_part_II",
+  "type":"Action-aventure, survival-horror",
+  "mode":"Solo",
+  "support":"ps4",
+  "studio":"Naughty dog",
+  "gameplay":"https://www.youtube.com/embed/z1OESz4zpLs",
+  "avis":"6",
+  "desc":"Les évènements de The Last of Us Part II se déroulent peu de temps après ceux du prmeier opus et prennent place dans un monde post-apocalyptique, où une pandémie de cordyceps a tué une grande partie de l'humanité, le reste de la population subsistant tant bien que mal parmi les infectés. Le jeu se déroule en grande partie à Seattle, ainsi qu'à Jackson et à Santa Barbara. Dans le jeu, le joueur est amené à rencontrer plusieurs factions, chacune ayant des coutumes et une manière de fonctionner qui lui sont propres. Il sera également amené à se battre face aux infectés, des humains atteints et contrôlés par le cordyceps"
+},
+{
+  "name" :"satisfactory",
+  "year":"2019",
+  "image":"satisfactory",
+  "type":"Jeu de gestion, Jeu de construction",
+  "mode":"Solo et coop",
+  "support":"pc",
+  "studio":"Coffee Stain Studios",
+  "gameplay":"https://www.youtube.com/embed/7lJEDZsMm-Y",
+  "avis":"4",
+  "desc":"Le joueur incarne un ingénieur de la société FICSIT Inc qui est largué à bord d'une capsule sur une planète extraterrestre. Son objectif est de construire différents bâtiments et de les relier ensemble afin de créer une usine entièrement automatisée pour édifier un ascenseur spatial qui sert par la suite à envoyer à FICSIT Inc des bien de plus en plus sophistiqués qui sont produits des ressources extraites. Le joueur doit gérer sa production d’énergie, le transport, l’extraction minière pour parvenir à ses fins."
+},
+{
+  "name" :"ghostrunner",
+  "year":"2020",
+  "image":"ghostrunner",
+  "type":"Jeu d'action, jeu de plates-formes, hack 'n' slash",
+  "mode":"solo",
+  "support":"pc",
+  "studio":"one more level",
+  "gameplay":"https://www.youtube.com/embed/lI4SYEOsnco",
+  "avis":"5",
+  "desc":"Ghostrunner se déroule dans le futur, après un cataclysme mondial. Une ville se trouvant dans une tour géante est le dernier bastion de l'humanité. Les implants déterminent l'appartenance à diverses castes qui divisent la communauté. La violence et la pauvreté mènent la rébellion. Les joueurs jouent le rôle d'un héros qui, de manière unique, peut combattre à la fois dans le monde physique et dans le cyberespace. Le but est de monter dans la tour et de vaincre son maître, le Keymaster. Une seule attaque suffit pour tuer un ennemi ou le héros. Au fur et à mesure de notre progression dans l’histoire, de nouveaux implants sont débloqués pour améliorer les compétences de notre personnage."
+},
+{
+  "name" :"L.A. Noire",
+  "year":"2011",
+  "image":"la_noire",
+  "type":"Action, enquêtes",
+  "mode":"solo",
+  "support":"ps3",
+  "studio":"Rockstar Games",
+  "gameplay":"https://www.youtube.com/embed/eW-9zFhAyDM",
+  "avis":"4",
+  "desc":"L.A. Noire est un jeu d'action-aventure. Le jeu vous place dans la peau d'un détective à Los Angeles à la fin des années 1940 dans un contexte d'après-guerre où se mêlent corruption et drogue. Le jeu croise action, enquête et narration complexe, tout en présentant une série de meurtres à élucider. Il s'agit d'un monde ouvert, il est donc possible en plus des enquêtes d'intervenir sur des évènements en temps réel dans la ville, comme des braquages, des agressions ou autres."
+},
+{
+  "name" :"red dead redemption 2",
+  "year":"2018",
+  "image":"red_dead_redemption_2",
+  "type":"Action-aventure, Western",
+  "mode":"Solo",
+  "support":"ps4",
+  "studio":"Rockstar games",
+  "gameplay":"https://www.youtube.com/embed/jTx5GetgC-M",
+  "avis":"6",
+  "desc":"Les évènements se déroulent avant ceux du premier opus, en 1899. La bande de Dutch van der Linde, réalise un braquage d'envergure dans la ville de Blackwater. Volant $150 000 dans une banque et fuyant à bord d'un ferry, la situation tourne court lorsque les représentants de la loi, et principalement la Pinkerton National Detective Agency, sont tout près de capturer la bande de hors-la-loi. Dans la panique, Dutch tue une femme innocente et certains de leurs associés sont tués. D'autres membres de la bande sont capturés, voire exécutés. Les membres survivants de la bande parviennent à prendre la fuite. Dutch perd une partie de l'argent volé dans la fuite, mais parvient à cacher le reste dans un endroit secret à Blackwater. Pourchassés sans relâche par les fédéraux, la bande de Dutch s'exile vers les montagnes, à l'Est."
 }
 ];
 
@@ -94,7 +190,7 @@ const movies = [
     "year":"",
     "image":"",
     "type":"",
-    "mode":"solo",
+    "mode":"",
     "support":"",
     "studio":"",
     "gameplay":"",
