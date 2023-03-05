@@ -226,7 +226,7 @@ const movies = [
   "type": "action-aventure",
   "mode": "solo",
   "support": "ps3",
-  "studio": "ubisoft montreal",
+  "studio": "ubisoft",
   "avis": "5",
   "desc": "Assassin's Creed 2 est un jeu d'action-aventure en monde ouvert développé par Ubisoft Montreal. Le jeu se déroule dans la Renaissance italienne et suit les aventures du personnage Ezio Auditore da Firenze, un assassin qui cherche à venger sa famille et à déjouer un complot contre la famille des Médicis. Les joueurs peuvent explorer librement les villes italiennes, grimper sur des bâtiments, assassiner des cibles, et améliorer les compétences et l'équipement d'Ezio. Assassin's Creed 2 est connu pour son histoire captivante, son gameplay fluide et son monde ouvert immersif."
   },
